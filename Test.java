@@ -130,7 +130,7 @@ public class SAA540PrintBean extends BeanBase {
       //’ •[ID‚ğæ“¾‚·‚é
       String idPrintId = (String)data.get(SAA510Define.ID_PRINT_ID);
       
-      // ’ •[ID‚Ìæ“¾
+      // ’ •[ID‚Ìæ“¾@•ÏX2
       PrintLogic pl = new PrintLogic(idPrintId);
 
       ArrayList meisaiList = getIraisho(); 
