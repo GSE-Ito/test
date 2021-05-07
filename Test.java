@@ -186,7 +186,7 @@ public class SAA540PrintBean extends BeanBase {
               //支払条件
               pl.addPrintStr(bean.getShiharaiJokenMei1());
           }            
-          //説明開催年月日＋時刻
+          //説明開催年月日＋時刻   てすと
           pl.addPrintStr(bean.getSetumeikaiKaisaiYmd() 
                   + "　" + bean.getSetumeikaiKaisaiTime());
           //集合場所
